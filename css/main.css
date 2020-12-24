@@ -1,0 +1,1786 @@
+/* Default CSS Code */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:focus * {
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.mt-40 {
+    margin-top: 3rem;
+}
+
+.mb-30 {
+    margin-top: 3rem;
+}
+
+.mt-80 {
+    margin-top: 8rem;
+}
+
+.navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    padding: 0;
+}
+
+
+/*
+font-family: 'avantgarde_bk_btdemi';
+font-family: 'avantgarde_bk_btbook';
+font-family: 'robotobold';
+font-family: 'robotomedium';
+*/
+
+
+/* Reusable Code */
+
+.custom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title h3 {
+    color: #000000;
+    margin-bottom: 1.6rem;
+}
+
+.section-title p {
+    color: #000000;
+    font-size: 2rem;
+}
+
+
+/* Start Custom CSS */
+
+body {
+    font-size: 1.4rem;
+    color: #000000;
+    font-family: 'avantgarde_bk_btbook';
+}
+
+
+/* Start Artboard Layout code */
+
+
+/* Header Part */
+
+.sticky-wrapper {
+    height: auto !important;
+}
+
+.main-nav {
+    background: #047083;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto !important;
+    z-index: 9999;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.navbar {
+    padding: 2rem 0;
+    padding-bottom: 2.5rem;
+}
+
+.career-navbar {
+    padding: 2rem 0;
+    padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+    width: 15.4rem;
+    height: 15.3rem;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.is-sticky .navbar-brand {
+    width: 10.4rem;
+    height: 10.3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'avantgarde_bk_btdemi';
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    opacity: 0.93;
+    font-weight: normal;
+    margin-right: 3.4rem;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F39B9A;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #F39B9A;
+}
+
+.navbar-light .navbar-toggler {
+    margin-left: auto;
+    border: .4rem solid #ffffff;
+    width: 5rem;
+    height: 4rem;
+    position: relative;
+}
+
+.navbar-light .navbar-toggler .toggler-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.toggler-btn .bar {
+    width: 2.9rem;
+    margin: 0.56rem auto;
+    display: block;
+    height: 0.34rem;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.navbar-toggler.change .toggler-btn .bar1 {
+    transform: rotate(-45deg) translate(-0.6rem, 0.6rem);
+    background: #fff;
+    -webkit-transform: rotate(-45deg) translate(-0.6rem, 0.6rem);
+    -moz-transform: rotate(-45deg) translate(-0.6rem, 0.6rem);
+    -ms-transform: rotate(-45deg) translate(-0.6rem, 0.6rem);
+    -o-transform: rotate(-45deg) translate(-0.6rem, 0.6rem);
+}
+
+.navbar-toggler.change .toggler-btn .bar2 {
+    opacity: 0;
+}
+
+.navbar-toggler.change .toggler-btn .bar3 {
+    transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+    background: #fff;
+    -webkit-transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+    -moz-transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+    -ms-transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+    -o-transform: rotate(45deg) translate(-0.6rem, -0.6rem);
+}
+
+.navbar .navbar-collapse {
+    margin-top: -2rem;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.is-sticky .navbar .navbar-collapse {
+    margin-top: 0rem;
+}
+
+.join-team a {
+    width: 16rem;
+    height: 4.7rem;
+    background: #fff;
+    color: #000000;
+    font-size: 1.6rem;
+    font-family: 'avantgarde_bk_btdemi';
+    padding: 0;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.join-team a:hover {
+    background: #F39B9A;
+    color: #fff;
+}
+
+
+/* Header Part */
+
+
+/* Story Banner Part */
+
+#story-banner {
+    padding-top: 29rem;
+    padding-bottom: 8.7rem;
+}
+
+.focus-tagline h3 {
+    font-size: 4.2rem;
+    color: #057083;
+    text-transform: uppercase;
+    font-family: 'avantgarde_bk_btbook';
+}
+
+.typed-cursor {
+    font-size: 6rem;
+}
+
+.story-image {
+    margin: 0 auto;
+    margin-top: 7.8rem;
+    width: 40rem;
+    height: 50.4rem;
+}
+
+.story-content .card-header,
+.story-content .card {
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.story-content h3 {
+    margin-top: 16.4rem;
+    margin-bottom: 2.5rem;
+    color: #000000;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.story-content p {
+    color: #000000;
+    font-family: 'avantgarde_bk_btbook';
+    font-size: 2rem;
+    width: 58.8rem;
+    margin: 0 auto;
+}
+
+.story-content a {
+    color: #F39B9A;
+    text-transform: uppercase;
+    font-family: 'avantgarde_bk_btdemi';
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+
+/* Collapse Part */
+
+.story-content .collapse.show {
+    overflow: hidden;
+    height: 30rem;
+    transition: height 0.5s ease;
+}
+
+.story-content .collapse:not(.show) {
+    display: block;
+    transition-duration: 0.5s;
+    /* Change height according story text height */
+    height: 100%;
+    /* Change height according story text height */
+}
+
+.story-content .collapsing {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    /* Change height according story text height */
+    height: 100%;
+    /* Change height according story text height */
+}
+
+.story-button span i {
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition-delay: 0.3s;
+}
+
+.story-button.collapsed span i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition-duration: 0.4s;
+    transition-delay: 0.3s;
+}
+
+
+/* Collapse Part */
+
+
+/* Story Banner Part */
+
+
+/* Product Part */
+
+#product {
+    position: relative;
+}
+
+.product-container {
+    padding-top: 15.5rem;
+    height: 66.6rem;
+    background: #047083;
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+}
+
+.product-element {
+    position: absolute;
+    left: 50%;
+    bottom: -7rem;
+    width: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.product-header p {
+    margin-top: 1.2rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.view-product a {
+    margin-top: 4.5rem;
+    font-size: 2rem;
+    font-family: 'avantgarde_bk_btdemi';
+    text-decoration: underline;
+}
+
+.view-product a span {
+    margin-left: .5rem;
+}
+
+.single-product {
+    width: 100%;
+    height: 40.5rem;
+    background: #fff;
+    position: relative;
+    box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+}
+
+.single-product-text {
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20.1rem;
+    padding-top: 6.5rem;
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.single-product-text h4 {
+    font-size: 2rem;
+    color: #047083;
+    padding-bottom: 1rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.single-product-text p {
+    font-size: 1.6rem;
+    color: #047083;
+    width: 28.5rem;
+    margin: 0 auto;
+}
+
+
+/* Product Part */
+
+
+/* Volume Part */
+
+#volume {
+    padding-top: 19rem;
+    padding-bottom: 12rem;
+}
+
+.volume-image {
+    margin-top: 6.5rem;
+}
+
+
+/* Volume Part */
+
+
+/* Domains Part */
+
+#domains {
+    padding: 12rem 0;
+    padding-bottom: 56rem;
+    background: #CDE2E6;
+    overflow: hidden;
+}
+
+.domains-full-container {
+    position: relative;
+}
+
+.domain-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+}
+
+.domain-header h3 {
+    color: #000000;
+}
+
+.single-domain {
+    height: auto;
+    background: #fff;
+    padding: 4rem;
+    box-shadow: 0.1rem .6rem .5rem 0.1rem rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0.1rem .6rem .5rem 0.1rem rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0.1rem .6rem .5rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.domains-icon {
+    width: 14.2rem;
+    height: 14.7rem;
+    margin: 0 auto;
+}
+
+.domain-innertext h5 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.domain-innertext p {
+    font-size: 1.6rem;
+}
+
+.owl-item {
+    width: 28.2rem !important;
+    margin-right: 2rem;
+    opacity: 0.4;
+}
+
+.owl-item.active.center {
+    padding-bottom: 4.5rem;
+    opacity: 1;
+}
+
+.owl-carousel .owl-stage {
+    width: 2000rem !important;
+    left: -37.5%;
+}
+
+.owl-dots {
+    position: absolute;
+    top: 39rem;
+    left: .4rem;
+    width: 100%;
+    height: 1.4rem;
+    z-index: 99999;
+    padding-top: 2.5rem;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #DCEBED;
+    margin-right: 1.4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot.active {
+    background: #fff;
+}
+
+.domains-container {
+    position: absolute;
+    top: 0;
+    right: -50%;
+}
+
+
+/* Domains Part */
+
+
+/* Stack Part */
+
+#stack {
+    padding: 12rem 0;
+}
+
+.single-stack {
+    margin-bottom: 4rem;
+}
+
+.stack-1 {
+    width: 6.9rem;
+    height: 2.6rem;
+}
+
+.stack-2 {
+    width: 8.3rem;
+    height: 4.7rem;
+}
+
+.stack-3 {
+    width: 8.8rem;
+    height: 5.5rem;
+}
+
+.stack-4 {
+    width: 4.3rem;
+    height: 4.2rem;
+}
+
+.stack-5 {
+    width: 9.9rem;
+    height: 2.5rem;
+}
+
+.stack-6 {
+    width: 7.2rem;
+    height: 7.2rem;
+}
+
+.stack-7 {
+    width: 4.6rem;
+    height: 4.7rem;
+}
+
+.stack-8 {
+    width: 11.6rem;
+    height: 3.5rem;
+}
+
+.stack-9 {
+    width: 4.7rem;
+    height: 4.7rem;
+}
+
+.stack-10 {
+    width: 7.5rem;
+    height: 5.7rem;
+}
+
+.stack-11 {
+    width: 9.1rem;
+    height: 5.4rem;
+}
+
+.stack-12 {
+    width: 4rem;
+    height: 4.6rem;
+}
+
+.stack-13 {
+    width: 4.7rem;
+    height: 4.6rem;
+}
+
+.stack-14 {
+    width: 4.7rem;
+    height: 4.7rem;
+}
+
+.stack-15 {
+    width: 7.5rem;
+    height: 4.6rem;
+}
+
+.stack-16 {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.stack-17 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.stack-18 {
+    width: 6.3rem;
+    height: 3.8rem;
+}
+
+.stack-list1,
+.stack-list2,
+.stack-list3 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stack-list2 {
+    padding: 0 -2rem;
+}
+
+
+/* Stack Part */
+
+
+/* apps Part */
+
+#apps {
+    padding-top: 15.2rem;
+    padding-bottom: 12rem;
+    background: #047083;
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.apps-content h3 {
+    margin-bottom: 2rem;
+}
+
+.apps-content p {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+
+/* apps Part */
+
+
+/* Tech Kitchen Part */
+
+#tech-kitchen {
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+}
+
+#tech-kitchen .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+#tech-kitchen .card {
+    border: 0;
+}
+
+#tech-kitchen .tech-explore a {
+    color: #000000;
+}
+
+
+/* Collapse Part */
+
+#tech-kitchen .collapse.show {
+    overflow: hidden;
+    height: 42rem;
+    transition: height 0.2s ease;
+    -webkit-transition: height 0.2s ease;
+    -moz-transition: height 0.2s ease;
+    -ms-transition: height 0.2s ease;
+    -o-transition: height 0.2s ease;
+}
+
+#tech-kitchen .collapse:not(.show) {
+    display: block;
+    transition-duration: 0.4s;
+    /* Change height according story text height */
+    height: 87rem;
+    /* Change height according story text height */
+}
+
+#tech-kitchen .collapsing {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.4s ease;
+    -webkit-transition: height 0.4s ease;
+    -moz-transition: height 0.4s ease;
+    -ms-transition: height 0.4s ease;
+    -o-transition: height 0.4s ease;
+    /* Change height according story text height */
+    height: 87rem;
+    /* Change height according story text height */
+}
+
+
+/* Collapse Part */
+
+.single-tech {
+    width: 100%;
+    height: 40.5rem;
+    position: relative;
+    box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0.1rem .4rem 1.2rem .2rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.tech-container {
+    margin-top: 7.8rem;
+}
+
+.tech-comment {
+    position: absolute;
+    top: 2.4rem;
+    left: 2.4rem;
+    width: 7.1rem;
+    height: 3.2rem;
+}
+
+.single-tech-text {
+    background: #197C8D;
+    position: absolute;
+    bottom: 0;
+    width: 101%;
+    height: 20.1rem;
+    padding-top: 6.5rem;
+    clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
+}
+
+.single-tech-text h4 {
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.single-tech-text p {
+    font-size: 1.6rem;
+    color: #ffffff;
+    width: 28.5rem;
+    margin: 0 auto;
+}
+
+
+/* Tech Kitchen Part */
+
+
+/* Map Part */
+
+#map {
+    position: relative;
+}
+
+.map-content {
+    position: absolute;
+    top: 50%;
+    left: 12rem;
+    width: 48.6rem;
+    height: 40.6rem;
+    padding: 4rem;
+    background: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.map-content h3 {
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.map-content p {
+    font-size: 1.7rem;
+}
+
+
+/* Map Part */
+
+
+/* Footer Part */
+
+#footer {
+    padding: 15rem 0;
+    padding-bottom: 12rem;
+    background: rgb(4, 112, 131);
+    clip-path: polygon(0px 5%, 100% 0px, 100% 100%, 0% 100%);
+    margin-top: -3rem;
+}
+
+.footer-logo {
+    width: 25.7rem;
+    height: 25.7rem;
+}
+
+.footer-brand {
+    width: 40.5rem;
+    margin-left: 4.8rem;
+}
+
+.brand-contain {
+    margin-bottom: 2rem;
+}
+
+.brand-1 {
+    margin-bottom: 0.7rem;
+    width: 17.9rem;
+    height: 4.3rem;
+}
+
+.brand-2 {
+    width: 17.9rem;
+    height: 4.8rem;
+}
+
+.footer-question {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2.4rem;
+}
+
+.footer-btn {
+    width: 25.5rem;
+    height: 4.7rem;
+    background: #F39B9A;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-left: 1.7rem;
+    padding-right: 1rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.footer-btn span {
+    margin-left: 6rem;
+}
+
+.office-location {
+    color: #fff;
+    margin-left: 11.7rem;
+}
+
+.office-location h5 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.office-location p {
+    font-size: 1.6rem;
+}
+
+
+/* Footer Part */
+
+
+/* Start Vacatures Layout code */
+
+
+/* Vacatures Jobs Part */
+
+#open-jobs {
+    padding-top: 38rem;
+    padding-bottom: 19rem;
+}
+
+.job-text h3 {
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.job-text p {
+    font-size: 2rem;
+}
+
+.softwer-text {
+    width: 100%;
+    height: 40.7rem;
+    margin-top: -2rem;
+}
+
+
+/* Vacatures Jobs Part */
+
+
+/* Vacatures Footer Part */
+
+#footer.vacatures-bottom {
+    padding-bottom: 0 !important;
+}
+
+.footer-bottom {
+    width: 100%;
+    background: #fff;
+    margin-top: 12rem;
+    padding: 2.3rem;
+}
+
+.footer-btmicon {
+    width: 13.2rem;
+    height: 3.4rem;
+    margin: 0 auto;
+}
+
+
+/* Vacatures Footer Part */
+
+
+/* End Vacatures Layout code */
+
+
+/* Start Vlog single Layout code */
+
+
+/* Vlog Episode Part */
+
+#vlog-episode {
+    position: relative;
+}
+
+.vlog-container {
+    padding-top: 19rem;
+    padding-bottom: 28rem;
+    margin-bottom: 38rem;
+    background: #047083;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.v-image-position {
+    position: absolute;
+    top: 28rem;
+    left: 0;
+    width: 100%;
+    padding: 0 .2rem;
+    z-index: 99;
+}
+
+.vlog-head {
+    color: #fff;
+    margin-bottom: 3.5rem;
+}
+
+.vlog-head h5 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.vlog-head h2 {
+    font-size: 3.6rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.v-imagecontainer {
+    position: relative;
+}
+
+.v-image-inner {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    width: 10.8rem;
+    height: 3.2rem;
+    display: flex;
+    background: #9ACFAE;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.v-image-inner h5,
+.v-tech-inner h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.vlog-image {
+    width: 100%;
+    height: 59.3rem;
+}
+
+.vlog-nav .navbar {
+    padding-bottom: 0.5rem;
+}
+
+
+/* Vlog Episode Part */
+
+
+/* Vlog Reacties part */
+
+#reacties {
+    margin-bottom: 12rem;
+}
+
+.reacties-upper {
+    color: #000000;
+    padding: 0 .8rem;
+    margin-bottom: 8rem;
+}
+
+.reacties-upper h5 {
+    font-size: 1.7rem;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-bottom: 1rem;
+}
+
+.reacties-upper p {
+    font-size: 1.7rem;
+}
+
+.reacties-bottom {
+    padding: 0 .8rem;
+}
+
+.reacties-title h5 {
+    font-size: 1.7rem;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.reacties-bottom .vlogcomment-btn {
+    position: relative;
+    display: inline-block;
+}
+
+.vlog-ctext {
+    color: #fff;
+}
+
+.vlogcomment-btn a {
+    color: #fff;
+    background: #F39B9A;
+    width: 5.8rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vlogcomment-btn a span {
+    padding-right: .5rem;
+}
+
+.reacties-img {
+    width: 100%;
+    height: 47.6rem;
+    margin-top: 1rem;
+}
+
+
+/* Vlog Reacties part */
+
+
+/* Vlog Tech part */
+
+#vtech-kitchen {
+    padding-bottom: 13.5rem;
+}
+
+#vtech-kitchen .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0 solid rgba(0, 0, 0, 0.125);
+}
+
+#vtech-kitchen .card {
+    border: 0;
+}
+
+.single-vtech-container {
+    margin-bottom: 4rem;
+}
+
+.single-vtech {
+    width: 36.9rem;
+    height: 23.6rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.single-vtech::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.single-vtech:hover::before {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.twatch-vlog {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    -o-transform: translate(-50%, -60%);
+    opacity: 0;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.single-vtech:hover .twatch-vlog {
+    opacity: 1;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.twatch-vlog a {
+    font-size: 1.6rem;
+    font-family: 'avantgarde_bk_btdemi';
+    color: #fff;
+    width: 19rem;
+    height: 4.7rem;
+    background: #F39B9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twatch-vlog a span {
+    padding-left: 1rem;
+}
+
+.single-vtech .v-tech-inner {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    width: 10.8rem;
+    height: 3.2rem;
+    display: flex;
+    background: #9ACFAE;
+    justify-content: center;
+    align-items: center;
+}
+
+.vtechcomment-btn a {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.25);
+    width: 5.8rem;
+    height: 3.2rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vtechcomment-btn a p span {
+    padding-right: .5rem;
+}
+
+.vtech-explore {
+    margin-top: 7rem;
+}
+
+.vtech-explore a {
+    color: #fff;
+    background: #F39B9A;
+    width: 25.5rem;
+    height: 4.7rem;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    font-family: 'avantgarde_bk_btdemi';
+}
+
+.vtech-explore a span {
+    padding-left: 1rem;
+}
+
+.single-vtech-content {
+    width: 28.5rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.single-vtech-content h5 {
+    font-family: 'avantgarde_bk_btdemi';
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.single-vtech-content p {
+    font-size: 1.6rem;
+}
+
+
+/* Vlog Tech Collapse Part */
+
+#vtech-kitchen .collapse.show {
+    overflow: hidden;
+    height: 38rem;
+    transition: height 0.4s ease;
+    -webkit-transition: height 0.4s ease;
+    -moz-transition: height 0.4s ease;
+    -ms-transition: height 0.4s ease;
+    -o-transition: height 0.4s ease;
+}
+
+#vtech-kitchen .collapse:not(.show) {
+    display: block;
+    transition-duration: 0.4s;
+    /* Change height according story text height */
+    height: 80rem !important;
+    /* Change height according story text height */
+}
+
+#vtech-kitchen .collapsing {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.4s ease;
+    -webkit-transition: height 0.4s ease;
+    -moz-transition: height 0.4s ease;
+    -ms-transition: height 0.4s ease;
+    -o-transition: height 0.4s ease;
+    /* Change height according story text height */
+    height: 80rem !important;
+    /* Change height according story text height */
+}
+
+
+/* Vlog Tech Collapse Part */
+
+
+/* Vlog Tech part */
+
+
+/* End Vlog single Layout code */
+
+
+/* Start Career Layout code */
+
+
+/* Career Home Part */
+
+#career-home {
+    padding-top: 12rem;
+    padding-bottom: 18rem;
+    overflow: hidden;
+}
+
+.career-img {
+    position: relative;
+}
+
+.career-img::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.25;
+}
+
+.career-img img {
+    object-fit: cover;
+    object-position: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.career-ltop-img {
+    height: 23.8rem;
+}
+
+.career-lmiddle-img {
+    height: 24.5rem;
+}
+
+.career-lbottom-img {
+    height: 24rem;
+}
+
+.career-l1top-img {
+    height: 38rem;
+}
+
+.career-l1bottoml-img {
+    height: 18.7rem;
+}
+
+.career-l1bottomr-img {
+    height: 18.8rem;
+}
+
+.career-l2topl-img {
+    height: 21.2rem;
+}
+
+.career-l2topr-img {
+    height: 21.2rem;
+}
+
+.career-rtop-img {
+    height: 40rem;
+}
+
+.career-about {
+    background: #F39B9A;
+    color: #fff;
+    padding: 5.5rem;
+}
+
+.career-about h3 {
+    font-size: 3.4rem;
+    font-family: 'robotomedium';
+    margin-bottom: 1rem;
+}
+
+.career-about p {
+    font-size: 1.7rem;
+}
+
+.custom-col2 {
+    flex: 0 0 27.77%;
+    max-width: 27.77%;
+}
+
+
+/* Career Home Part */
+
+
+/* Career Jobs Part */
+
+#career-jobs {
+    padding-bottom: 16rem;
+}
+
+.career-job-container {
+    color: #000000;
+}
+
+.career-job-container h3 {
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.career-job-container p {
+    font-size: 2rem;
+}
+
+.career-jobs-btn {
+    margin-top: 3rem;
+}
+
+.career-jobs-btn a {
+    width: 17rem;
+    height: 4.7rem;
+    background: #047083;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: 'avantgarde_bk_btdemi';
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.career-jobs-btn a:hover {
+    background: #F39B9A
+}
+
+
+/* Career Jobs Part */
+
+
+/* Career Team Part */
+
+#career-team {
+    padding-top: 18.6rem;
+    padding-bottom: 11rem;
+}
+
+.career-team-title h4 {
+    font-size: 3.6rem;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-bottom: 3rem;
+}
+
+.single-team-image {
+    width: 34.8rem;
+    max-width: 100%;
+    height: 25.3rem;
+}
+
+.single-team-image img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* Team Frame Color Change */
+
+.single-image1 .img-thumbnail,
+.single-image2 .img-thumbnail {
+    padding: 0.6rem;
+    height: 100%;
+    background-color: #000;
+    border: 1.2rem solid #EB9695;
+}
+
+.single-image2 .img-thumbnail {
+    border: 1.2rem solid #046D80;
+}
+
+.single-team-container {
+    margin-bottom: 4.8rem;
+}
+
+.single-team-text h5 {
+    font-size: 1.8rem;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-top: 2rem;
+}
+
+.single-team-text p {
+    font-size: 1.6rem;
+    margin-top: .5rem;
+}
+
+
+/* Team Frame Color Change */
+
+
+/* Career Team Part */
+
+
+/* Career Why Join Part */
+
+#why-join {
+    padding-bottom: 9rem;
+}
+
+.why-join-header {
+    margin-bottom: 12rem;
+}
+
+.why-join-header h3 {
+    color: #000000;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-bottom: 1.5rem;
+}
+
+.why-join-header p {
+    font-family: 'robotomedium';
+    font-size: 1.7rem;
+}
+
+.single-join {
+    padding-right: 5rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.rsingle-join {
+    padding-left: 5rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.single-join h5,
+.rsingle-join h5 {
+    font-size: 1.8rem;
+    font-family: 'avantgarde_bk_btdemi';
+    padding-right: 3rem;
+}
+
+.single-join p,
+.rsingle-join p {
+    width: 28.4rem;
+    font-size: 1.6rem;
+    margin-left: auto;
+}
+
+.rsingle-join p {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.single-join-icon {
+    position: absolute;
+    top: -5rem;
+    right: -17rem;
+    width: 16.6rem;
+    height: 18.4rem;
+}
+
+.rsingle-join-icon {
+    position: absolute;
+    top: -5rem;
+    left: -17rem;
+    width: 16.6rem;
+    height: 18.4rem;
+}
+
+
+/* Career Why Join Part */
+
+
+/* Career Interview Process Part */
+
+#interview-process {
+    padding-bottom: 17rem;
+}
+
+.interview-line-contain {
+    position: relative;
+    overflow: hidden;
+}
+
+.interview-icon-line {
+    position: absolute;
+    top: 9.5rem;
+    left: .5rem;
+    width: 95rem;
+    height: .2rem;
+    background: #000;
+}
+
+.interview-header h3 {
+    color: #000000;
+    padding-bottom: 1.5rem;
+    margin-bottom: 4rem;
+    border-bottom: 0.1rem solid #000000;
+}
+
+.interview-number h5 {
+    font-size: 1.6rem;
+    display: inline-block;
+    font-family: 'robotomedium';
+    border: 0.1rem solid #000000;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 2.8rem;
+}
+
+.interview-icon {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 2rem;
+    z-index: 55;
+    position: relative;
+}
+
+.interview-text p.interview-ptop {
+    margin-bottom: 1rem;
+}
+
+.interview-text p {
+    font-size: 1.8rem;
+}
+
+
+/* Career Interview Process Part */
+
+
+/* Career FAQ Part */
+
+#career-faq {
+    background: #F2F8F9;
+    padding-top: 17rem;
+    padding-bottom: 12.6rem;
+}
+
+.faq-title h3 {
+    display: inline-block;
+    color: #000000;
+    border-bottom: 0.1rem solid #000000;
+    padding-bottom: 1rem;
+    margin-bottom: 4.6rem;
+}
+
+.single-faq {
+    padding: 3rem;
+    background: #fff;
+    margin-bottom: 4.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.single-faq h5 {
+    font-size: 1.8rem;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-bottom: 1rem;
+}
+
+.single-faq p {
+    font-size: 1.6rem;
+}
+
+
+/* Career FAQ Part */
+
+
+/* Career Recruiter Part */
+
+#career-recruiter {
+    padding: 17rem 0;
+}
+
+.recruiter-head h3 {
+    color: #000000;
+    font-family: 'avantgarde_bk_btdemi';
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem solid #000000;
+    margin-bottom: 5rem;
+}
+
+.l-recruiter-image {
+    width: 31rem;
+    height: 39.7rem;
+}
+
+.l-recruiter-text {
+    padding: 2.5rem 1rem 2.5rem 4.8rem;
+}
+
+.l-recruiter-text h4 {
+    font-size: 2rem;
+    font-family: 'avantgarde_bk_btdemi';
+    margin-bottom: 3.5rem;
+}
+
+.l-recruiter-text p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.l-recruiter-text p span i {
+    color: #F39B9A;
+    margin-right: 2rem;
+}
+
+.l-recruiter-text a {
+    color: #F39B9A;
+    font-family: 'robotomedium';
+    font-size: 1.7rem;
+}
+
+.l-recruiter-text a span i {
+    margin-right: 2rem;
+}
+
+
+/* Career Recruiter Part */
+
+
+/* End Career Layout code */

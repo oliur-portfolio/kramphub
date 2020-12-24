@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'avantgarde_bk_btbook';
+    src: url('3ff19f55afafc12889e0ab68bc2ab3e8a9002d35-webfont.woff2') format('woff2'), url('3ff19f55afafc12889e0ab68bc2ab3e8a9002d35-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('9f22ee7c1123c092956630f5c38423831dc3d919-webfont.woff2') format('woff2'), url('9f22ee7c1123c092956630f5c38423831dc3d919-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('6092f7c6732805187aced02e3a9c45b0666791ea-webfont.woff2') format('woff2'), url('6092f7c6732805187aced02e3a9c45b0666791ea-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avantgarde_bk_btdemi';
+    src: url('d6155d9df73a67b260c7a5c7c40dfc40e5df8973-webfont.woff2') format('woff2'), url('d6155d9df73a67b260c7a5c7c40dfc40e5df8973-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

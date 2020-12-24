@@ -1,0 +1,588 @@
+@media (max-width: 1259.98px) {
+    .single-product {
+        height: 34rem;
+    }
+    .product-container {
+        padding-top: 11.5rem;
+        height: 54.6rem;
+    }
+    .owl-carousel .owl-stage {
+        left: -32%;
+    }
+    .owl-item {
+        margin-right: 4rem;
+    }
+    .owl-dots {
+        left: 1.4rem;
+    }
+    .single-stack {
+        margin-bottom: 7rem;
+    }
+    .single-tech {
+        height: 34.5rem;
+    }
+    #tech-kitchen .collapse.show {
+        height: 36rem;
+    }
+    #tech-kitchen .collapse:not(.show) {
+        height: 75rem;
+    }
+    #tech-kitchen .collapsing {
+        height: 75rem;
+    }
+    .map-content {
+        width: 38rem;
+        top: 20%;
+        left: 4rem;
+        transform: translateY(-20%);
+        -webkit-transform: translateY(-20%);
+        -moz-transform: translateY(-20%);
+        -ms-transform: translateY(-20%);
+        -o-transform: translateY(-20%);
+    }
+    .map-content h3 {
+        font-size: 2.6rem;
+    }
+    .map-content p {
+        font-size: 1.5rem
+    }
+    /* Vlog Single resonsive code */
+    .single-vtech {
+        width: 100%;
+    }
+    .twatch-vlog a {
+        width: 16rem;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    /* Vlog Single resonsive code */
+    /* Career Page resonsive code */
+    .career-rtop-img {
+        height: 42.5rem;
+    }
+    .career-lbottom-img {
+        height: 33rem;
+    }
+    .career-job-container p {
+        font-size: 1.6rem;
+    }
+    .single-join p,
+    .rsingle-join p {
+        width: 25rem;
+    }
+    .interview-icon-line {
+        width: 77rem;
+    }
+    /* Career Page resonsive code */
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 55%;
+    }
+    .navbar {
+        padding: 4rem 2rem;
+    }
+    .navbar-brand {
+        width: 12.4rem;
+        height: 12.3rem;
+    }
+    .navbar-nav {
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    .navbar-nav a {
+        margin-bottom: 1rem;
+    }
+    .story-content h3 {
+        margin-top: 10.4rem;
+    }
+    .single-product {
+        height: 31.5rem;
+    }
+    .single-product-text h4 {
+        font-size: 1.7rem;
+    }
+    .single-product-text p {
+        font-size: 1.4rem;
+        width: 21.5rem;
+    }
+    .single-product-text {
+        padding-top: 5.5rem;
+    }
+    .stack-list2 {
+        padding: 0;
+    }
+    .domain-header h3 {
+        font-size: 2.8rem;
+    }
+    .domain-header p {
+        font-size: 1.8rem;
+    }
+    .owl-item {
+        width: 27.2rem !important;
+        margin-right: 2rem;
+    }
+    .single-tech {
+        height: 70rem;
+    }
+    .single-tech-text {
+        height: 26rem;
+        padding-top: 8rem;
+    }
+    #tech-kitchen .collapse.show {
+        height: 218rem;
+    }
+    #tech-kitchen .collapse:not(.show) {
+        height: 440rem;
+    }
+    #tech-kitchen .collapsing {
+        height: 440rem;
+    }
+    #footer {
+        margin-top: -2.5rem;
+        clip-path: polygon(0px 4%, 100% 0px, 100% 100%, 0% 100%);
+    }
+    .footer-logo {
+        width: 20rem;
+        height: 20rem;
+    }
+    .office-location {
+        margin-left: 5rem;
+    }
+    /* Vlog Single resonsive code */
+    .vlog-image {
+        height: 42rem;
+    }
+    .vlog-container {
+        padding-bottom: 15rem;
+    }
+    .twatch-vlog a {
+        width: 14rem;
+        font-size: 1.4rem;
+    }
+    .single-vtech-content {
+        width: 19rem;
+    }
+    #vtech-kitchen .collapse:not(.show) {
+        height: 92rem !important;
+    }
+    #vtech-kitchen .collapsing {
+        height: 92rem !important;
+    }
+    /* Vlog Single resonsive code */
+    /* Career Page resonsive code */
+    #career-home {
+        padding-top: 13rem;
+        padding-bottom: 12rem;
+    }
+    .career-about {
+        padding: 3rem 3rem;
+    }
+    .career-about h3 {
+        font-size: 2.5rem;
+    }
+    #career-team {
+        padding-top: 10rem;
+    }
+    .single-join {
+        margin-bottom: 17rem;
+    }
+    .rsingle-join {
+        padding-left: 0;
+        margin-bottom: 17rem;
+    }
+    .single-join p,
+    .rsingle-join p {
+        margin-left: 0;
+        width: 50rem;
+    }
+    .single-join-icon {
+        right: 0;
+    }
+    .rsingle-join-icon {
+        left: auto;
+        right: 0 !important;
+    }
+    .interview-icon-line {
+        width: 64rem;
+    }
+    /* Career Page resonsive code */
+}
+
+@media (max-width: 767.98px) {
+    h3 {
+        font-size: 3rem;
+    }
+    .section-title p {
+        width: 36rem;
+        font-size: 1.6rem;
+    }
+    .product-header p {
+        font-size: 1.8rem;
+        width: 35rem;
+    }
+    .product-container {
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+        padding-top: 15rem;
+        height: 190rem;
+    }
+    .single-product {
+        height: 52rem;
+    }
+    .product-image a {
+        width: 100%;
+    }
+    .single-product-text h4 {
+        font-size: 2rem;
+    }
+    .single-product-text p {
+        font-size: 1.6rem;
+        width: 28.5rem;
+    }
+    .domain-header p {
+        width: 100%;
+    }
+    .owl-carousel .owl-stage {
+        left: -23.5%;
+    }
+    .owl-item {
+        margin-right: 1.8rem;
+    }
+    .tech-image a {
+        width: 100%;
+    }
+    .single-tech {
+        height: 52rem;
+    }
+    #tech-kitchen .collapse.show {
+        height: 164rem;
+    }
+    #tech-kitchen .collapse:not(.show) {
+        height: 335rem;
+    }
+    #tech-kitchen .collapsing {
+        height: 335rem;
+    }
+    .view-product a {
+        font-size: 1.6rem;
+    }
+    .map-content {
+        display: none;
+    }
+    .map-content p {
+        font-size: 1.6rem;
+    }
+    #footer {
+        margin-top: -3rem;
+        clip-path: polygon(0px 2.5%, 100% 0px, 100% 100%, 0% 100%);
+    }
+    .footer-content {
+        display: block !important;
+    }
+    .footer-logo {
+        width: 30rem;
+        height: 30rem;
+    }
+    .footer-brand {
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+    }
+    /* Vacatures responsive */
+    #open-jobs {
+        padding-top: 31rem;
+        padding-bottom: 10rem;
+    }
+    /* Vacatures responsive */
+    /* Vlog Single resonsive code */
+    .single-vtech {
+        height: 34rem;
+    }
+    .twatch-vlog a {
+        width: 19rem;
+        font-size: 1.6rem;
+    }
+    .single-vtech-content {
+        width: 80%;
+    }
+    .single-vtech-container {
+        margin-bottom: 6rem;
+    }
+    #vtech-kitchen .collapse.show {
+        height: 150rem;
+    }
+    #vtech-kitchen .collapse:not(.show) {
+        height: 303rem !important;
+    }
+    #vtech-kitchen .collapsing {
+        height: 303rem !important;
+    }
+    /* Vlog Single resonsive code */
+    /* Career Page resonsive code */
+    .custom-col1 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .custom-col2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .career-lbottom-img {
+        height: 27rem;
+    }
+    .single-team-container {
+        margin-bottom: 8rem;
+    }
+    .single-team-image {
+        width: 100%;
+    }
+    .why-join-header {
+        margin-bottom: 0;
+    }
+    #career-team {
+        padding-bottom: 5rem;
+    }
+    .single-join {
+        margin-top: 30rem;
+    }
+    .single-join:last-child {
+        margin-bottom: 10rem;
+    }
+    .rsingle-join {
+        margin-top: 20rem;
+        margin-bottom: 30rem;
+    }
+    .rsingle-join:last-child {
+        margin-bottom: 10rem;
+    }
+    .single-join-icon {
+        top: -22rem;
+        left: 0;
+    }
+    .rsingle-join-icon {
+        top: -22rem;
+        left: 0;
+    }
+    .single-join p,
+    .rsingle-join p {
+        width: 100%;
+    }
+    #interview-process {
+        padding-bottom: 4rem;
+    }
+    .interview-icon-line {
+        display: none;
+    }
+    .single-interview {
+        margin-bottom: 8rem;
+    }
+    #career-faq {
+        padding-top: 10rem;
+        padding-bottom: 6rem;
+    }
+    #career-recruiter {
+        padding: 10rem 0;
+    }
+    .left-recruiter {
+        margin-bottom: 8rem;
+    }
+    /* Career Page resonsive code */
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 2rem 2rem;
+    }
+    #story-banner {
+        padding-top: 20rem;
+    }
+    .focus-tagline h3 {
+        font-size: 3rem;
+    }
+    .mt-80 {
+        margin-top: 5rem;
+    }
+    .story-image {
+        width: 30rem;
+        height: 40rem;
+    }
+    .story-content .collapse.show {
+        height: 55rem;
+    }
+    .story-content h3 {
+        margin-top: 8.4rem;
+    }
+    .join-team {
+        padding-bottom: 3rem;
+    }
+    .upper-content {
+        display: block !important
+    }
+    .story-content p {
+        width: 35.8rem;
+    }
+    .product-container {
+        height: 160rem;
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+    .single-product {
+        height: 39rem;
+    }
+    #volume {
+        padding-bottom: 5rem;
+    }
+    #apps {
+        clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #stack {
+        padding-bottom: 5rem;
+    }
+    #domains {
+        padding-bottom: 80rem;
+    }
+    .owl-item {
+        margin-right: 3.4rem;
+    }
+    .domain-header {
+        width: 100%;
+    }
+    .domains-container {
+        top: 25rem;
+        right: auto;
+        left: 0;
+    }
+    .owl-dots {
+        left: 1.4rem;
+    }
+    #tech-kitchen .card-header {
+        display: block !important;
+    }
+    .single-tech {
+        height: 45rem;
+    }
+    .single-tech-text {
+        height: 26rem;
+        padding-top: 8rem;
+    }
+    #tech-kitchen .collapse.show {
+        height: 143rem;
+    }
+    #tech-kitchen .collapse:not(.show) {
+        height: 290rem;
+    }
+    #tech-kitchen .collapsing {
+        height: 290rem;
+    }
+    .footer-logo {
+        width: 23rem;
+        height: 23rem;
+    }
+    .footer-brand {
+        width: 33rem;
+    }
+    .footer-question {
+        font-size: 1.6rem;
+    }
+    /* Vacatures responsive */
+    #open-jobs .mt-80 {
+        margin-top: 8rem;
+    }
+    .job-text p {
+        font-size: 1.6rem;
+    }
+    /* Vacatures responsive */
+    /* Vlog Single resonsive code */
+    .navbar-light .navbar-toggler .toggler-btn {
+        padding-right: 0.1rem;
+    }
+    .vlog-image {
+        height: 26rem;
+    }
+    .vlog-container {
+        margin-bottom: 22rem;
+    }
+    #reacties {
+        margin-bottom: 18rem;
+    }
+    .single-vtech {
+        height: 30rem;
+    }
+    .single-vtech-content {
+        width: 100%;
+    }
+    #vtech-kitchen .collapse.show {
+        height: 138rem;
+    }
+    #vtech-kitchen .collapse:not(.show) {
+        height: 280rem !important;
+    }
+    #vtech-kitchen .collapsing {
+        height: 280rem !important;
+    }
+    /* Vlog Single resonsive code */
+    /* Career Page resonsive code */
+    #career-home {
+        padding-top: 12rem;
+    }
+    .custom-col1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom-col2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .career-img {
+        height: 31rem;
+    }
+    .career-about {
+        padding: 4rem;
+    }
+    .career-about h3 {
+        font-size: 2rem;
+    }
+    .career-about p {
+        font-size: 1.6rem;
+    }
+    .single-join {
+        padding-right: 0;
+    }
+    .left-recruiter {
+        display: block !important;
+    }
+    .l-recruiter-text {
+        padding: 2.5rem 1rem 2.5rem 0rem;
+    }
+    /* Career Page resonsive code */
+}
+
+
+/* For Domain Part Mobile Responsive */
+
+@media (max-width: 479px) {
+    .owl-carousel .owl-stage {
+        left: 6%;
+    }
+    .owl-item {
+        width: 36rem !important;
+    }
+    .owl-dots {
+        left: 4.4rem;
+        top: 38rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .owl-item.active {
+        opacity: 1;
+    }
+    .owl-item {
+        width: 34rem !important;
+    }
+    .owl-dots {
+        left: 2.4rem;
+        top: 39rem;
+    }
+}
